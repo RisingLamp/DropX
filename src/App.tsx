@@ -477,11 +477,18 @@ function App() {
             Key Features
           </h2>
           <div className="grid md:grid-cols-3 gap-8">
+          <div className="bg-white p-6 rounded-lg shadow-sm">
+              <Zap className="h-8 w-8 text-indigo-600 mb-4" />
+              <h3 className="text-xl font-semibold mb-2">No Login Required</h3>
+              <p className="text-gray-600">
+                Start sharing instantly without any registration
+              </p>
+            </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
               <Upload className="h-8 w-8 text-indigo-600 mb-4" />
               <h3 className="text-xl font-semibold mb-2">Large File Support</h3>
               <p className="text-gray-600">
-                Share files larger than 5GB with no restrictions
+                Share files larger than 5GB+ with no restrictions
               </p>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-sm">
@@ -491,13 +498,6 @@ function App() {
               </h3>
               <p className="text-gray-600">
                 Your files are encrypted and secure during transfer
-              </p>
-            </div>
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <Zap className="h-8 w-8 text-indigo-600 mb-4" />
-              <h3 className="text-xl font-semibold mb-2">No Login Required</h3>
-              <p className="text-gray-600">
-                Start sharing instantly without any registration
               </p>
             </div>
           </div>
@@ -512,11 +512,11 @@ function App() {
           <div className="bg-white p-6 rounded-lg shadow-sm text-center">
             <img
               src="https://images.unsplash.com/photo-1738369350430-87d667611998?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDIwfHRvd0paRnNrcEdnfHxlbnwwfHx8fHw%3D"
-              alt="Patil Uday"
+              alt="Patil Uday ( Rising )"
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
             <h3 className="text-xl font-semibold mb-1">Patil Uday</h3>
-            <p className="text-gray-600">Baba ji Ki Booti</p>
+            <p className="text-gray-600"></p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm text-center">
             <img
@@ -525,7 +525,7 @@ function App() {
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
             <h3 className="text-xl font-semibold mb-1">Tribhuvan Om</h3>
-            <p className="text-gray-600">Age 20 with No Beard</p>
+            <p className="text-gray-600"></p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm text-center">
             <img
@@ -534,7 +534,7 @@ function App() {
               className="w-32 h-32 rounded-full mx-auto mb-4 object-cover"
             />
             <h3 className="text-xl font-semibold mb-1">Yadav Dron</h3>
-            <p className="text-gray-600">Bandi Pati G@nd tuti</p>
+            <p className="text-gray-600"></p>
           </div>
         </div>
       </section>
@@ -545,7 +545,9 @@ function App() {
             <Share2 className="h-6 w-6" />
             <span className="text-xl font-bold">DropX</span>
           </div>
+          
           <p className="text-gray-400">© 2025 DropX. All rights reserved.</p>
+
         </div>
       </footer>
     </div>
